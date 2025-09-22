@@ -1,0 +1,46 @@
+{
+  "active": true,
+  "addresses": [
+    {
+      "type": "work",
+      "streetAddress": "1419 Dicki Tunnel",
+      "locality": "LMLXOTKRAUTG"
+    }
+  ],
+  "displayName": "EIZRYFUDHGDR",
+  "emails": [
+    {
+      "type": "work",
+      "value": "liam_dubuque@tromp.co.uk"
+    }
+  ],
+  "externalId": "00bd4afb-7a01-444e-84c6-71f882daa3e9",
+  "name": {
+    "givenName": "Laisha",
+    "familyName": "Granville"
+  },
+  "phoneNumbers": [
+    {
+      "type": "mobile",
+      "value": "53-320-4814"
+    }
+  ],
+  "preferredLanguage": "fy",
+  "schemas": [
+    "urn:ietf:params:scim:schemas:core:2.0:User",
+    "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User",
+    "urn:ietf:params:scim:schemas:extension:sap:2.0:User"
+  ],
+  "title": "KKDEFGHJGGYW",
+  "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
+    "employeeNumber": "QEVVKOUNWEDG",
+    "costCenter": "CVGKLSBKNPSN",
+    "organization": "BUJZNTEVZFTU"
+  },
+  "urn:ietf:params:scim:schemas:extension:sap:2.0:User": {
+    "userUuid": "ILJUDQQVSCLL",
+    "mailVerified": true
+  },
+  "userName": "paula@ornschowalter.co.uk",
+  "userType": "employee"
+}
