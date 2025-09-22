@@ -1,0 +1,45 @@
+{
+  "Operations": [
+    {
+      "op": "replace",
+      "path": "emails[type eq \"work\"].value",
+      "value": "winfield.oreilly@lind.com"
+    },
+    {
+      "op": "replace",
+      "path": "addresses[type eq \"work\"].streetAddress",
+      "value": "2128 Herzog Forks"
+    },
+    {
+      "op": "replace",
+      "path": "addresses[type eq \"work\"].locality",
+      "value": "GPASDDSDQVLO"
+    },
+    {
+      "op": "replace",
+      "path": "phoneNumbers[type eq \"mobile\"].value",
+      "value": "15-726-4589"
+    },
+    {
+      "op": "replace",
+      "value": {
+        "active": true,
+        "displayName": "YBVAQGHVPEDZ",
+        "title": "XCGGEUPDINYV",
+        "preferredLanguage": "fr-GP",
+        "name.givenName": "Laila",
+        "name.familyName": "Jonathon",
+        "externalId": "1b61a4a2-4b2e-47f2-ae08-a71e930071b6",
+        "userType": "employee",
+        "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:employeeNumber": "DJVVHPEWYQOB",
+        "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:costCenter": "GMKXQBLKDBYR",
+        "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:organization": "TAMZNQCZIAEE",
+        "urn:ietf:params:scim:schemas:extension:sap:2.0:User:userUuid": "PLBPAMKBORXL",
+        "urn:ietf:params:scim:schemas:extension:sap:2.0:User:mailVerified": true
+      }
+    }
+  ],
+  "schemas": [
+    "urn:ietf:params:scim:api:messages:2.0:PatchOp"
+  ]
+}
