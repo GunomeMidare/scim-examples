@@ -1,0 +1,93 @@
+{
+	"schemas": [
+		"urn:ietf:params:scim:schemas:core:2.0:User",
+		"urn:ietf:params:scim:schemas:extension:enterprise:2.0:User",
+		"urn:ietf:params:scim:schemas:extension:sap:2.0:User",
+		"urn:sap:cloud:scim:schemas:extension:custom:2.0:User"
+	],
+	"name": {
+		"familyName": "Doe",
+		"givenName": "John",
+		"formatted": "Mr. John Doe II",
+		"middleName": "Gilbert",
+		"honorificPrefix": "Mr.",
+		"honorificSuffix": "II"
+	},
+	"emails": [
+		{
+			"type": "work",
+			"value": "john.doe@example.com",
+			"display": "john.doe",
+			"primary": true
+		}
+	],
+	"phoneNumbers": [
+		{
+			"type": "mobile",
+			"value": "0612345678"
+		},
+		{
+			"type": "work",
+			"value": "0131234567"
+		}
+	],
+	"externalId": "34F578JK",
+	"displayName": "Mr. John",
+	"userType": "Employee",
+	"active": true,
+	"locale": "EN",
+	"timezone": "Europe/Amsterdam",
+	"userName": "john.doe@example.com",
+	"addresses": [
+		{
+			"formatted": "8 Europa Str.",
+			"primary": true,
+			"country": "NL",
+			"locality": "Tilburg",
+			"postalCode": "5017JZ",
+			"region": "SA",
+			"streetAddress": "Spoorlaan 298",
+			"type": "work"
+		},
+		{
+			"formatted": "8 Europa Str.",
+			"primary": false,
+			"country": "NL",
+			"locality": "Amsterdam",
+			"postalCode": "1040KB",
+			"region": "SA",
+			"streetAddress": "MediArena 5",
+			"type": "home"
+		}
+	],
+	"urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
+		"division": "IDS",
+		"costCenter": "4130",
+		"organization": "Achmea",
+		"department": "Administration",
+		"employeeNumber": "701984",
+		"manager": {
+			"value": "e8a9951c-0c7c-4e06-ad23-b0d651cc6718"
+		}
+	},
+	"urn:ietf:params:scim:schemas:extension:sap:2.0:User": {
+		"mailVerified": true,
+		"userUuid": "30ac69fe-5155-4d7f-8830-e9af6bf3e401",
+		"industry": "Insurance",
+		"companyRelationship": "Customer",
+		"validFrom": "2025-07-24T11:56:47.264Z",
+		"validTo": "2026-07-24T11:56:47.264Z"
+	},
+	"urn:sap:cloud:scim:schemas:extension:custom:2.0:User": {
+		"attributes": [
+			{
+				"name": "customAttribute1",
+				"value": "dummy1"
+			},
+			{
+				"name": "customAttribute2",
+				"value": "dummy2"
+			}
+		]
+	}
+}
