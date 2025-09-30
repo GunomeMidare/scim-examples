@@ -26,7 +26,7 @@ The following examples specify diffrent syntax for performing a patch operation 
 {
       "op": "replace",
       "value": {
-        "name.givenName": "Obie"
+        "name.givenName": "Laila"
         }
 }
 ```
